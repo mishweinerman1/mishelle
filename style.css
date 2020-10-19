@@ -24,7 +24,7 @@ body {
 }
 
 .header {
-  background-color: #357376;
+  background-color: #FDFEFE;
 }
 
 .header h1 {
@@ -37,7 +37,7 @@ body {
 }
 
 .form {
-  background-color: #357376;
+  background-color: #FDFEFE;
   width: 100%;
 }
 
@@ -52,7 +52,7 @@ label,
 input {
   display: block;
   width: 100%;
-  background-color: #357376;
+  background-color: #FDFEFE;
   border: none;
   border-bottom: 1px #1d4d4f solid;
 }
