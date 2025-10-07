@@ -1,0 +1,202 @@
+{
+  "task": "Sample Task",
+  "answers": {
+    "objective": "Build baseline dashboard",
+    "stakeholders": "COO, Analytics Director",
+    "deadline": "6 weeks",
+    "deliverables": "Requirements doc, dashboard, training",
+    "data_sources": "HRIS, Project logs, Finance data",
+    "risks": "Data quality, stakeholder adoption",
+    "team": "Consultant, client analyst"
+  },
+  "components": [
+    {
+      "id": "component-discovery--alignment-0fc680f6",
+      "name": "Discovery & Alignment",
+      "focus": "Confirm scope, success metrics, and expectations for Sample Task with COO, Analytics Director.",
+      "steps": [
+        {
+          "description": "Kickoff with sponsors to confirm the objective \u2014 Build baseline dashboard \u2014 and success measures.",
+          "hours": 2.0,
+          "status": "Not Started",
+          "notes": "",
+          "id": "step-kickoff-with-sponsors-to-confirm-the-objective--build-baseline-dashboard--and-success-measures-2000b344"
+        },
+        {
+          "description": "Document current context, stakeholder map (COO, Analytics Director), and decision cadence.",
+          "hours": 1.5,
+          "status": "Not Started",
+          "notes": "",
+          "id": "step-document-current-context-stakeholder-map-coo-analytics-director-and-decision-cadence-5fbc7783"
+        },
+        {
+          "description": "Finalize problem statement, decision rights, and engagement guardrails.",
+          "hours": 1.5,
+          "status": "Not Started",
+          "notes": "",
+          "id": "step-finalize-problem-statement-decision-rights-and-engagement-guardrails-c4b9c270"
+        }
+      ],
+      "total_hours": 5.0
+    },
+    {
+      "id": "component-current-state--data-assessment-db694a2b",
+      "name": "Current State & Data Assessment",
+      "focus": "Inventory existing processes, technology, and data needed from HRIS, Project logs, Finance data.",
+      "steps": [
+        {
+          "description": "Conduct working sessions to map current workflows and tooling.",
+          "hours": 3.0,
+          "status": "Not Started",
+          "notes": "",
+          "id": "step-conduct-working-sessions-to-map-current-workflows-and-tooling-2bab5eef"
+        },
+        {
+          "description": "Audit data availability, quality, and access requirements across HRIS, Project logs, Finance data.",
+          "hours": 2.5,
+          "status": "Not Started",
+          "notes": "",
+          "id": "step-audit-data-availability-quality-and-access-requirements-across-hris-project-logs-finance-data-c9ef18cd"
+        },
+        {
+          "description": "Synthesize findings into opportunity brief and assumptions log.",
+          "hours": 2.0,
+          "status": "Not Started",
+          "notes": "",
+          "id": "step-synthesize-findings-into-opportunity-brief-and-assumptions-log-2b68216b"
+        }
+      ],
+      "total_hours": 7.5
+    },
+    {
+      "id": "component-solution-design-f0d0f76e",
+      "name": "Solution Design",
+      "focus": "Translate insights into a future-state design and prioritize deliverables (Requirements doc, dashboard, training).",
+      "steps": [
+        {
+          "description": "Define user stories, success metrics, and experience flows that deliver Build baseline dashboard.",
+          "hours": 3.5,
+          "status": "Not Started",
+          "notes": "",
+          "id": "step-define-user-stories-success-metrics-and-experience-flows-that-deliver-build-baseline-dashboard-3e7c4a93"
+        },
+        {
+          "description": "Draft architecture / operating model options and review with COO, Analytics Director.",
+          "hours": 4.0,
+          "status": "Not Started",
+          "notes": "",
+          "id": "step-draft-architecture--operating-model-options-and-review-with-coo-analytics-director-19573649"
+        },
+        {
+          "description": "Create implementation roadmap with phased milestones and dependencies.",
+          "hours": 3.0,
+          "status": "Not Started",
+          "notes": "",
+          "id": "step-create-implementation-roadmap-with-phased-milestones-and-dependencies-bb047829"
+        }
+      ],
+      "total_hours": 10.5
+    },
+    {
+      "id": "component-build--iterate-ad75ea72",
+      "name": "Build & Iterate",
+      "focus": "Develop prioritized workstreams with Consultant, client analyst, validate with pilot users, and incorporate feedback.",
+      "steps": [
+        {
+          "description": "Stand up development environment, assign owners, and confirm sprint logistics.",
+          "hours": 4.0,
+          "status": "Not Started",
+          "notes": "",
+          "id": "step-stand-up-development-environment-assign-owners-and-confirm-sprint-logistics-0a232c89"
+        },
+        {
+          "description": "Execute build sprints with weekly showcases and backlog grooming to meet 6 weeks.",
+          "hours": 8.0,
+          "status": "Not Started",
+          "notes": "",
+          "id": "step-execute-build-sprints-with-weekly-showcases-and-backlog-grooming-to-meet-6-weeks-67d2cc02"
+        },
+        {
+          "description": "Run pilot / UAT sessions and capture iteration requirements.",
+          "hours": 4.0,
+          "status": "Not Started",
+          "notes": "",
+          "id": "step-run-pilot--uat-sessions-and-capture-iteration-requirements-c750633b"
+        }
+      ],
+      "total_hours": 16.0
+    },
+    {
+      "id": "component-enablement--change-management-219d03ac",
+      "name": "Enablement & Change Management",
+      "focus": "Equip stakeholders with training, documentation, and support for adoption.",
+      "steps": [
+        {
+          "description": "Develop enablement materials and training curriculum.",
+          "hours": 3.0,
+          "status": "Not Started",
+          "notes": "",
+          "id": "step-develop-enablement-materials-and-training-curriculum-ed4ee859"
+        },
+        {
+          "description": "Facilitate training sessions and gather readiness feedback.",
+          "hours": 2.5,
+          "status": "Not Started",
+          "notes": "",
+          "id": "step-facilitate-training-sessions-and-gather-readiness-feedback-e7b6c438"
+        },
+        {
+          "description": "Finalize support model and handoff documentation.",
+          "hours": 2.0,
+          "status": "Not Started",
+          "notes": "",
+          "id": "step-finalize-support-model-and-handoff-documentation-3e748851"
+        }
+      ],
+      "total_hours": 7.5
+    },
+    {
+      "id": "component-measurement--iteration-861945f4",
+      "name": "Measurement & Iteration",
+      "focus": "Define operating rhythms to monitor outcomes, risks (Data quality, stakeholder adoption), and backlog refinements.",
+      "steps": [
+        {
+          "description": "Launch performance dashboard and baseline key metrics.",
+          "hours": 2.5,
+          "status": "Not Started",
+          "notes": "",
+          "id": "step-launch-performance-dashboard-and-baseline-key-metrics-a247b395"
+        },
+        {
+          "description": "Run retrospective to capture lessons learned and enhancement backlog.",
+          "hours": 2.0,
+          "status": "Not Started",
+          "notes": "",
+          "id": "step-run-retrospective-to-capture-lessons-learned-and-enhancement-backlog-4c4a2858"
+        },
+        {
+          "description": "Plan next-wave initiatives aligned to strategic objectives.",
+          "hours": 1.5,
+          "status": "Not Started",
+          "notes": "",
+          "id": "step-plan-nextwave-initiatives-aligned-to-strategic-objectives-1276881d"
+        }
+      ],
+      "total_hours": 6.0
+    }
+  ],
+  "created_at": "2025-10-07T15:53:30",
+  "last_updated": "2025-10-07T15:53:30",
+  "next_updates": [
+    {
+      "label": "Morning check-in",
+      "scheduled_for": "2025-10-08T09:00:00"
+    },
+    {
+      "label": "Evening wrap-up",
+      "scheduled_for": "2025-10-07T17:00:00"
+    }
+  ],
+  "total_hours": 52.5,
+  "update_history": []
+}
