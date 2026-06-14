@@ -81,6 +81,13 @@ button {
   margin-top: 1.5rem;
 }
 
+.form-status {
+  color: #1d4d4f;
+  font-size: 0.85rem;
+  min-height: 1.2rem;
+  margin-top: 0.75rem;
+}
+
 a {
   color: #e5dfdf;
   text-decoration: none;

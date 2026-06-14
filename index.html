@@ -19,7 +19,7 @@
           <p>
             Helping you unlock your most valuable, yet underutilized, resource.
             
-            Having spent the past four years uncovering private company insights buried within public data, I'm adept at planning, developing, and executing large scale data systems, particularly those focusd on OSINT.
+            Having spent the past four years uncovering private company insights buried within public data, I'm adept at planning, developing, and executing large scale data systems, particularly those focused on OSINT.
             I've helped Private Equity firms source deals, Fortune 100 sales teams source leads, and every type of company build sophisticated competitor tracking systems.   
           </p>
           <p>
@@ -27,12 +27,13 @@
           </p>
         </div>
         <div class="form">
-          <form>
+          <form id="contact-form">
             <input
               class="form-control valid"
               name="name"
               id="name"
               type="text"
+              required
               onfocus="this.placeholder = ''"
               onblur="this.placeholder = 'Enter your Name'"
               placeholder="Enter your Name"
@@ -42,6 +43,7 @@
               name="email"
               id="email"
               type="email"
+              required
               onfocus="this.placeholder = ''"
               onblur="this.placeholder = 'Enter your Email'"
               placeholder="Enter your Email"
@@ -50,8 +52,46 @@
               Sign Up
             </button>
           </form>
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
         </div>
       </div>
     </div>
+
+    <!-- JS here -->
+    <script>
+      (function () {
+        var form = document.getElementById("contact-form");
+        var status = document.getElementById("form-status");
+        var CONTACT_EMAIL = "mishelle@auxinsights.com";
+
+        form.addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          var name = document.getElementById("name").value.trim();
+          var email = document.getElementById("email").value.trim();
+
+          if (!name || !email) {
+            status.textContent = "Please enter your name and email.";
+            return;
+          }
+
+          var subject = "Website inquiry from " + name;
+          var body =
+            "Name: " + name + "\nEmail: " + email + "\n\nMessage:\n";
+
+          window.location.href =
+            "mailto:" +
+            CONTACT_EMAIL +
+            "?subject=" +
+            encodeURIComponent(subject) +
+            "&body=" +
+            encodeURIComponent(body);
+
+          status.textContent =
+            "Thanks, " + name + "! Your email app should open to finish sending.";
+          form.reset();
+        });
+      })();
+    </script>
   </body>
 </html>
